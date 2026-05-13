@@ -18,11 +18,7 @@ export function AppFrame({ children }) {
         <Link to="/" className="brand">
           React Performance Lab
         </Link>
-        <div className="navLinks">
-          <Link to="/memo-callback">Memo</Link>
-          <Link to="/list-memo">List</Link>
-          <Link to="/transition-search">Transition</Link>
-        </div>
+       
       </nav>
       {children}
     </main>

@@ -1,17 +1,21 @@
-# React + Vite
+# React Performance Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+这个项目只用于测试 React 的不同性能优化场景。
 
-Currently, two official plugins are available:
+## Playgrounds
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+路由由 `vite-plugin-pages` 根据 `src/pages` 自动生成。每个 playground 对应一个页面文件，可以在里面独立编写测试代码。
 
-## React Compiler
+当前页面：
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `/memo-callback`
+- `/list-memo`
+- `/transition-search`
 
-## Expanding the ESLint configuration
+## Commands
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# performanceTest
+```bash
+npm run dev
+npm run build
+npm run lint
+```
