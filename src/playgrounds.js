@@ -1,14 +1,14 @@
 export const playgrounds = [
   {
     path: '/memo-callback',
-    label: 'memo callback playground',
+    label: 'Memo Callback',
   },
   {
-    path: '/list-memo',
-    label: 'list memo playground',
+    path: '/useMemoAndUseCallback',
+    label: 'useMemo & useCallback',
   },
   {
     path: '/transition-search',
-    label: 'transition search playground',
+    label: 'Transition Search',
   },
 ]
