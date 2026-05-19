@@ -1,7 +1,7 @@
 export const playgrounds = [
   {
-    path: '/memo-callback',
-    label: 'Memo Callback',
+    path: '/zustand',
+    label: 'zustand Test',
   },
   {
     path: '/useMemoAndUseCallback',
