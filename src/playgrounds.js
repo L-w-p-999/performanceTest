@@ -1,3 +1,5 @@
+import { label } from "motion/react-client";
+
 export const playgrounds = [
   {
     path: '/zustand',
@@ -11,4 +13,8 @@ export const playgrounds = [
     path: '/transition-search',
     label: 'Transition Search',
   },
+  {
+    path:'/handWrite',
+    label:'handWrite'
+  }
 ]
